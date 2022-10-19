@@ -1,0 +1,354 @@
+
+ .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+  p#carousel-caption-design{
+   color: red;
+  }
+
+
+  .brand{
+  	color: orange;
+  }
+
+  #exort{
+   background: url(../img/photo-1557683316-973673baf926.jpg) no-repeat fixed;
+   background-size: cover;
+
+  }
+
+  #exort a{
+   color: deepskyblue;
+   
+  }
+  #exort a:hover{
+   opacity: 0.5;
+  }
+   a#active{
+      color: skyblue;
+   }
+
+  .showcase1{
+  	background: url(../img/class12.jpg) no-repeat fixed;
+  	background-size: cover;
+   background-position: center;   
+   text-align: justify;
+   padding-bottom: 10%;  	
+   padding-top: 10%;
+   color: #fff;
+  }
+  
+  .showcase2{
+   background: url(../img/black-blue-linear-gradient-1920x1080-c2-010204-141c43-a-255-f-14.png);
+   background-size: cover;
+   text-align: justify;
+   padding-bottom: 10%;
+   color: #fff;
+  }
+
+  #quas1, #quas2, #quas3, #quas4{
+   text-align: justify;   
+   padding-top: 3%;
+   padding-bottom: 20%;
+   color: #fff;   
+  }
+
+  #quas1{
+   background: #081529;
+  }
+
+  #quas2{
+   background: #0E2446;
+  }
+  #quas3{
+   background: #081529;
+  }
+
+  #quas4{
+   background: #0E2446;
+  }
+  #why{
+   margin-top: 5%;
+   margin-bottom: 5%;
+  }
+
+  #feature{
+   padding: 6%;
+  }
+
+  #feature h1{
+   color: #081529;
+   font-weight: bold;
+  }
+
+
+  .footer{
+   background: url(../img/photo-1557683316-973673baf926.jpg)no-repeat fixed;
+   background-size: cover;
+   color: #fff;
+   padding-top: 3%;
+   padding-bottom: 3%;
+  }
+
+
+
+.footerLink{
+   display: inline-block;
+}
+
+.footerLink a{
+   color: #fff;
+}
+
+.footerLink a:hover{
+   color: deepskyblue;
+}
+
+.footerBottom{
+   background: #081529;
+   color: #fff;
+   padding: 1%;   
+}
+  
+  .programmerShowcase1bgD{
+
+   
+  }
+  #programmerShowcase1bgL{   
+   
+  }
+.programmerShowcase1bgD:hover #profileName{
+   color: deepskyblue;
+}
+
+.programmerShowcase1bgL{
+   
+}
+
+.profile{
+   border-radius: 80%;
+}
+
+  .programmerShowcase1bgD:hover .profile{
+   opacity: 0.7;
+   transition: 0.7s;
+
+  }
+
+.programmerShowcase1{
+   padding-top: 5%;
+
+   
+}
+
+
+.loginShowcase1{
+   background: url(../img/241805353_923629568506762_2954650629840704046_n.jpg) no-repeat fixed;
+   background-size: cover;
+   background-position: center;
+   
+}
+
+.boxLogin{
+   background: rgba(0, 0, 0, 0.2);
+   margin: auto;
+   margin-top: 8%;
+   height: 60%;
+   width: 30%;   
+   padding: 2%;
+}
+
+.registerShowcase1{
+   background: ghostwhite;   
+}
+.boxBody{
+   background: white;
+   border: 1px solid #ccc;
+   margin: auto;   
+   width: 70%;   
+   padding-left: 15%;
+   padding-right: 15%;
+   padding-bottom: 3%;
+   box-shadow: 5px 10px #ccc;
+}
+
+.TeacherLoginLeft{
+   background: url(../img/ucc.png);
+   background-size: cover;
+   background-position: all;
+   width: 100%;   
+   height: 100%;
+   border: 1px solid #ccc;
+   padding: 3%;   
+}
+.TeacherLoginLeftText{
+   padding-left: 5%;
+   padding-right: 5%;
+   color: #fff;
+
+}
+.TeacherLoginRight{
+   /*background: white;*/
+   background: rgba(255,255,255, 0.3);
+   border: 2px solid #ccc;   
+   margin: auto;   
+   width: 60%;   
+   padding-left: 15%;
+   padding-right: 15%;
+   padding-bottom: 3%;   
+   box-shadow: 8px 15px lightskyblue;
+   margin-top: 5%;
+   margin-bottom: 5%;
+}
+
+.TeacherRegisterBody{
+   background: url(../img/background/TeacherRegisterBody.jpg) no-repeat fixed center;
+
+   background-size: cover;
+
+
+}
+.TeacherRegisterBox{
+   background: rgba(255,255,255, 0.3);
+   padding: 5%;
+   margin-top: 10%;
+   margin-bottom: 10%;
+   color: #fff;
+   
+}
+
+.contactusbody{
+   background: white;
+   border: 1px solid #ccc;
+   width: 100%;
+   margin: auto;   
+   padding-left: 15%;
+   padding-right: 15%;
+   padding-bottom: 3%;
+   box-shadow: 5px 10px #c4c4c4;
+   
+}
+
+#regtextBox{
+   padding: 2%;
+   width: 100%;   
+   padding-left: 5%;
+}
+
+
+#TeacherRegisterInput{
+   width: 100%;
+   padding: 2%;
+   padding-left: 5%;   
+}
+
+
+input[id="regtextBox"]:focus,input[id="TeacherRegisterInput"]:focus{
+   /*box-shadow: 2px 3px lightskyblue;
+   border: 2px solid lightskyblue;*/
+   outline: none;
+}
+
+
+#btnCreateAccount{
+   padding: 2%;
+}
+
+
+#btnLogin{
+   padding-top: 2%;
+   padding-right: 5%;
+   padding-bottom: 2%;   
+   padding-left: 5%;
+   margin-top: 2%;
+}
+
+input[id="user"], [id="pass"]{
+   margin-left:50px;
+   border: none;
+   background: none;
+   border-bottom: 2px solid #000;
+   width: 75%;
+   outline: none;
+   color: #000;
+   height: 40px;
+   font-size: small;   
+}
+
+input#user:visited{
+   border-bottom: 2px solid #fff;
+}
+
+input#pass:link{
+   border-bottom: 2px solid #fff;
+}
+input#btnLogin{
+   padding: 4%;
+   width: 100%;
+   margin-top: 5%;
+}
+
+#selectLogin{
+   background: transparent;
+   border: none;
+   border-bottom: 2px solid black;
+   width: 78%;   
+   margin: auto;
+}
+.contactRightFloat{
+   background: rgba(0, 0, 0, 0.1);
+   padding: 5%;
+   color: #081529;
+}
+#contactRight{   
+   margin-left: 5%;
+}
+
+.Terms_and_condition_body{
+   padding-left: 15%;
+   padding-right: 15%;
+}
+
+#justifi{
+   text-align: justify;   
+}
+
+.TermsDark, .TermsLight{
+   border: none;
+   padding: 5%;
+}
+.TermsDark{
+   background: #081529;
+   color: #fff;
+}
+
+.TermsLight{
+   color: #000;
+   background: #fff;
+   border: none;
+}
+
+
+
+
+/*TEACHER CSS*/
+
+#TeacherWeb-sidebar{
+   width: 15%;
+   height: 100%;
+   background: red;
+
+}
+
+.footerBottomAdmin{
+   background: #081529;
+   color: #fff;
+   padding: 1%;   
+}
+
+/*STUDENT CSS*/
+
+
+

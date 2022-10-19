@@ -1,0 +1,82 @@
+.A, .B, .C, .D{   
+   padding: 10%;
+   text-align: center;
+   color: #fff;
+   transition: 0.6s;
+
+}
+.A:hover, .B:hover, .C:hover, .D:hover{
+   
+   opacity: 0.4;
+   transform: rotate(20deg);
+}
+.A{
+   background: deepskyblue;
+}
+
+.B{
+   background: orange;
+}
+
+.C{
+   background: orangered;
+}
+
+.D{
+   background: green;
+}
+
+.E, .F{
+   padding: 10%;   
+   text-align: center;
+   transition: 0.6s;
+   color: #fff;
+}
+
+.E{
+   background: green;
+}
+.F{
+   background: deepskyblue;
+}
+
+.E:hover {
+   box-shadow: 5px 10px #ccc;
+   padding-left: 3%;
+}
+.F:hover{
+   padding-right: 3%;
+}
+
+.Subject-box{
+   width: 100%;
+   border: 1px solid #ccc;
+}
+
+.Subject-1-top, .Subject-2-top, .Subject-3-top, .Subject-4-top, .Subject-5-top, .Subject-6-top{
+   padding: 5%;
+   padding-bottom: 15%;   
+   text-align: center;
+   height: 50%;
+   color: #fff;
+}
+.Subject-btm{
+   padding: 5%;
+   height: 100%;
+   width: 100%;
+   background: whitesmoke;
+}
+
+.Subject-1-top{
+   background: orangered;
+}
+.Subject-2-top{
+   background: yellowgreen;
+}
+.Subject-3-top{
+   background: orange;
+}
+
+.Subject-4-top{
+   background: deepskyblue;
+}
